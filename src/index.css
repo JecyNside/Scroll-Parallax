@@ -7,15 +7,17 @@
 main {
   height: 300vh;
   width: 100%;
+  background-color: black;
 }
 
 section {
   height: 100vh;
   width: 100%;
-  background-color: black;
+  will-change: transform;
 }
 
-section:first-child {
+.section-1,
+.section-2 {
   position: sticky;
   top: 0;
 }
